@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-Mar-2021, 2:35:15 pm
+    Author     : Apoorva
+*/
+
+#banner-img{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("../img/intro-bg_1.jpg")no-repeat center center;
+    background-size: cover;
+}
+#banner-content{
+    position:relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* #footer{
+    padding: 10px;
+    background-color: #9d9d9d;
+    color:#101010;
+    bottom: 0;
+    width: 100%;
+    position:relative;   
+}
+html, body {
+    height: 100%;
+}
+ 
+#content{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -50px;
+}
+ 
+#footer, .push { 
+    height: 50px;
+}
+/*.footer {
+  text-align: center;
+  background-color: #101010;
+  color:#9d9d9d ;
+  padding: 10px;
+  bottom: 0;
+  overflow:unset;
+  width: 100%;
+  position: absolute;
+  }  
+#body {
+   padding:10px;
+   padding-bottom:60px;   
+}
+*/
+.row_style{
+    margin-top:50px;
+}/*
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   
+   background:#6cf;
+}
+ */
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#ff0;
+   padding:10px;
+}
+#body {
+   padding:0px;
+   padding-bottom:50px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:50px;   /* Height of the footer */
+   background:#101010;
+   color:#9d9d9d ;
+   padding:10px;
+}
